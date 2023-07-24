@@ -99,7 +99,7 @@ iframe {
 }
 
 .btn:hover {
-    background-color: #2f1e84;
+    background-color: #07771a;
     transition: background-color 1s;
 }
 
@@ -250,7 +250,7 @@ nav li {
 #hero .btn:hover {
     background-color: #fff;
     transition: background-color 1s;
-    color: #2f1e84;
+    color: #045f24;
     transition: color 1s;
 }
 
