@@ -51,6 +51,10 @@ iframe {
     border: 0;
 }
 
+#lastpic {
+    object-position: center bottom;
+}
+
 
 /* Global Classes */
 
@@ -470,6 +474,15 @@ label {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+}
+
+.column-40 {
+    object-fit: content;
+}
+
+#submit-label {
+    justify-content: center;
+    align-items: center;
 }
 
 
