@@ -3,6 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Space Mono', monospace;
+}
+
+p {
+    font-family: 'Handjet', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+}
+
+.nav-link {
+    font-size: 17px !important;
 }
 
 html {
@@ -20,12 +33,6 @@ h1 {
     font-size: 3rem;
     font-weight: 900;
     margin: 8rem 0 2rem 0;
-}
-
-@media (max-width: 650px) {
-    h1 {
-        font-size: 2.4rem;
-    }
 }
 
 h2 {
@@ -76,18 +83,6 @@ iframe {
     clear: both;
 }
 
-@media screen and (max-width: 1000px) {
-    .column-60,
-    .column-40 {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-    #image-div img {
-        margin: auto;
-    }
-}
-
 .btn {
     text-transform: uppercase;
     font-weight: 600;
@@ -112,12 +107,6 @@ iframe {
     max-width: 200px;
 }
 
-@media (max-width: 650px) {
-    .logo-img {
-        margin: 0 auto;
-    }
-}
-
 .container {
     display: flex;
     flex-direction: row;
@@ -134,16 +123,6 @@ iframe {
     padding: 3rem 2rem 3rem 2rem;
     border: 1px solid rgba(55, 56, 58, 0.1);
     border-radius: 5px;
-}
-
-@media (max-width: 800px) {
-    .container {
-        flex-direction: column;
-    }
-    .card {
-        width: 100%;
-        margin: 1.5rem auto;
-    }
 }
 
 .card:hover {
@@ -171,38 +150,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: white;
     box-shadow: 0 1rem 1rem -1rem rgba(55, 56, 58, 0.2);
 }
 
-@media (max-width: 650px) {
-    header {
-        flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 650px) {
-    .logo {
-        margin: 15px auto;
-    }
-}
-
-nav {
-    font-weight: 400;
-}
-
-@media (max-width: 650px) {
-    nav {
-        margin: 15px auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    nav li {
-        padding-bottom: 8px;
-    }
+nav li {
+    padding-bottom: 8px;
 }
 
 nav>ul {
@@ -220,25 +173,8 @@ nav li {
 
 #hero {
     /*background-color: #4a4fbd;*/
-    background: linear-gradient(135deg, #01230c 0%, #3f5e48 100%);
+    background: black;
     color: #fff;
-    height: 450px;
-    margin: 5rem 0;
-    padding: 5rem;
-}
-
-@media (max-width: 1000px) {
-    #hero {
-        height: 750px;
-        margin-bottom: 2rem;
-    }
-}
-
-@media (max-width: 650px) {
-    #hero {
-        margin-top: 120px;
-        height: 900px;
-    }
 }
 
 #description {
@@ -258,16 +194,12 @@ nav li {
     transition: color 1s;
 }
 
-@media (max-width: 650px) {
-    #hero-img {
-        margin: 2rem auto !important;
-    }
-}
-
 
 /* Why section */
 
 #why {
+    background-color: darkgreen;
+    color: white;
     padding: 15rem 5rem 5rem 5rem;
     text-align: center;
 }
@@ -334,21 +266,6 @@ nav li {
     align-self: flex-start;
 }
 
-@media (max-width: 1000px) {
-    #info {
-        flex-direction: column;
-        align-items: center;
-    }
-    #info>div {
-        width: 100%;
-        padding: 0;
-        margin-bottom: 3rem;
-    }
-    #info h2 {
-        text-align: center;
-    }
-}
-
 #info>iframe {
     max-width: 560px;
     width: 100%;
@@ -367,13 +284,6 @@ nav li {
 #download .card {
     width: 35%;
     cursor: pointer;
-}
-
-@media (max-width: 800px) {
-    #download .card {
-        width: 100%;
-        margin: 1.5rem auto;
-    }
 }
 
 #download .desc {
@@ -490,7 +400,7 @@ label {
 
 footer {
     padding: 2.5rem 5rem;
-    background-color: #012e18;
+    background-color: darkgreen;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -536,10 +446,7 @@ footer {
 
 #footer-info>ul>li {
     padding: 0 10px;
-}
-
-#footer-info>ul>li>a {
-    color: #fff;
+    background-color: darkgreen;
 }
 
 #copyright {
@@ -547,5 +454,5 @@ footer {
     padding-right: 10px;
     display: flex;
     justify-content: flex-end;
-    font-size: 1.2rem;
+    font-size: 20px;
 }
